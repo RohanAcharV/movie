@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: rgb(63,77,128);
+    background: linear-gradient(180deg, rgba(63,77,128,0.9360337885154062) 0%, rgba(79,151,187,0.18813462885154064) 100%);
+}
+.nav img{
+    height: 100%;
+    width: auto;
+  }
+
+
+body{
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+
+}
+.parent{
+    width: 80%;
+    padding-top: 4vh;
+    margin: 5vh 10% 0 10%;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+}
+.child{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    background: rgb(63,77,128);
+background: linear-gradient(180deg, rgba(63,77,128,0.9360337885154062) 0%, rgba(79,151,187,0.18813462885154064) 100%);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.c0{
+  background: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+caption{
+    height: 5vh;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
+    color: white;
+    font-size: 25px;
+}
+input[type=submit]{
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 4vh;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+  }
+
+  #movie {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #movie td, #movie th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #movie tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #movie tr:hover {background-color: #ddd;}
+  
+  #movie th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }

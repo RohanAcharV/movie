@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+body{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+
+}
+.about{
+    width: 80%;
+    margin: auto;
+    height: 15vh;
+    padding: 10px;
+}
+
+.mimg{
+    height: 50vh;
+    width: 25vw;
+    margin: 5vh;
+}
+.box{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+.mcontent{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.trailer{
+    height: auto;
+    width: 10vw;
+    position:absolute;
+    padding: 5vh 0vw 0 3vw;
+    left: 55vw;
+    top: 5vh;
+    display: none;
+}
+.mimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.mhedng{
+    font-weight: 900;
+    width: 100%;
+    height: 25vh;
+    color: white;
+    font-size: 3rem;
+    padding: 50px 0 0 0;
+}
+
+.desc{
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
+.a{
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0px 0 0 0;
+    height: 5vh;
+}
+ul{
+    list-style-type: disc;
+    color: white;
+}
+.tbttn{
+    width: 100%;
+    padding: 10px 0 10px 20px;
+}
+.tbtn {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+  }
+  input[type=submit]{
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 4vh;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+  }
+.bk{
+    width: 80vw;height: 8vh; margin:auto;display: flex;flex-direction: row;   justify-content: space-between;
+}
+.space{
+    height: 10vh;width:10vw;padding-left:5vw; font-size: 18px;
+}
+label{
+    color: white;
+    font-size: 20px;
+}

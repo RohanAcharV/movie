@@ -1,0 +1,113 @@
+*{
+    margin: 0;padding: 0;
+
+}
+body{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: rgb(63,77,128);
+    background: linear-gradient(180deg, rgba(63,77,128,0.9360337885154062) 0%, rgba(79,151,187,0.18813462885154064) 100%);
+}
+.nav img{
+    height: 100%;
+    width: auto;
+  }
+.webimg{
+    background-image: url(imgs/mve.jpg);
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 4vh;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: 80vw 70vh;
+}
+.optn{
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 2vh;
+    width: 80vw;
+    height: 10vh;
+}
+.about{
+    /* font-family: ProximaNovaA-Regular; */
+    font-family: 'Lora', serif;
+    width: 80vw;
+    margin: auto;
+    margin-top: 5vh;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    
+}
+.contact{
+    height: 35vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding:  1vw auto;
+    border-bottom: rgba(0, 0, 0, 0.332) solid 1px;
+}
+.contact .c1 h3{
+    color: red;
+    font-size: 20px;
+}
+.c1{
+    margin: 2vw 3vw;
+    text-align: left;
+}
+.contact .c1 ul li{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+}
+.social img{
+    margin: 5px;
+}
+footer{
+    background-color: rgba(187, 176, 176, 0.582);
+    height: 3vh;
+}
+footer p{
+    margin-left: 10vw;
+    font-size: 18px;
+}
+input[type=submit]{
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 4vh;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+  }
+.log input[type=submit]{
+    position: absolute;top: 3vh;right:12vw;margin:10px 0;
+    background-color: none;
+    width: 10vw;
+    height: 3vh;
+    padding: 0;
+    /* display: none; */
+}
+.logname{
+    position: absolute;top: 0vh;right:12vw;margin:10px 0;
+    color: white;
+    width: 10vw;
+    height: 3vh;
+    font-size: 22px;
+    background-color: #203a43c9;
+    border-radius: 5px;
+}
